@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'TestIconMoon';
+  boolSucc = false;
+
+  click() {
+    this.boolSucc = true;
+  }
 }
